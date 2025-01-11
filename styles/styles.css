@@ -366,3 +366,61 @@ button:hover{
 .footer-section{
     padding: 50px 160px;
 }
+.opinion{
+    margin: 80px 160px;
+}
+.table-style{
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 32px;
+}
+.opinion-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table-head{
+    background: rgb(198, 228, 214);
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+}
+td{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px 0px;
+}
+.question-head{
+    padding-left: 10px;
+}
+.option-head{
+    display: flex;
+    justify-self: center;
+    border: none;
+}
+.question{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 24px;
+}
+.table-data{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+.option{
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 19px;
+}
