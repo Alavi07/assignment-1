@@ -2,6 +2,11 @@
 body{
     background: rgb(245, 245, 245);
 }
+button:hover{
+    color: rgb(33, 175, 175);
+    background-color: azure;
+    cursor: pointer;
+}
 #nav{
     display: flex;
     font-family: "Fira Sans";
@@ -22,6 +27,11 @@ body{
     font-weight: bolder;
     padding: 15px 30px;
     background-color: transparent;
+}
+#primary-btn:hover{
+    color: azure;
+    background-color: rgb(0, 106, 80);
+    cursor: pointer;
 }
 .banner{
     font-family: "Fira Sans";
@@ -60,6 +70,20 @@ body{
     color: aliceblue;
     font-size: 15px;
     font-weight: bolder;
+}
+.banner .banner-content .banner-btn:hover{
+    color: rgb(12, 145, 145);
+    background-color: azure;
+    cursor: pointer;
+}
+.p-o-b{
+    margin: 80px 160px 32px 160px;
+}
+.card{
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background-color: rgb(255, 255, 255);
+    padding: 32px;
 }
 .v-o-f{
     margin: 80px 160px 32px 160px;
