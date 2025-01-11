@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+body{
+    background: rgb(245, 245, 245);
+}
 #nav{
     display: flex;
     font-family: "Fira Sans";
@@ -237,4 +239,106 @@
     padding: 48px;
     margin: 24px 0px;
     gap: 24px;
+}
+.donation{
+    margin: 80px 160px 32px 160px;
+}
+.donation .section-title{
+    text-align: center;
+}
+.donation .section-description{
+    text-align: center;
+    padding: 12px 88px;
+}
+.all-tk-btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.taka-btn{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    gap: 24;
+    margin: 0px;
+}
+.donate-input{
+    margin: 32px 0px;
+    display: flex;
+    justify-content: center;
+}
+.donate-i{
+    background: rgb(255, 255, 255);
+    width: 1032px;
+    height: 64px;
+    text-align: center;
+    border: none;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+}
+.donation .btn{
+    display: flex;
+    justify-self: center;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    margin: 80px 160px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+.newsletter .section-title{
+    text-align: center;
+}
+.newsletter .section-description{
+    text-align: center;
+    margin: 16px 64px 24px 64px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+}
+.email{
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    width: 600px;
+    height: 55px;
+    padding: 0px 40px;
+}
+.s-btn{
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+}
+.newsletter-div{
+    padding: 80px 100px;
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+}
+.footer-img{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    padding: 32px 0px;
+}
+.footer-section{
+    padding: 50px 160px;
 }
